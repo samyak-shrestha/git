@@ -1,9 +1,7 @@
-﻿# Re-define and save markdown content for Day 1, Day 2, and Day 3 after code state reset
-
-# Day 1 content
+﻿# Day 1 content
 # 📅 Day 1 – Git Basics & Local Setup
+[Day 1 – Git Basics & Local Setup ](./3-create-new-repo.md)
 **Theme:** Getting Started with Git and SSH
-
 ## 🔧 Topics Covered
 - Introduction to Version Control
 - Installing Git and VS Code
@@ -18,7 +16,6 @@
   - Verifying SSH connection
 - Connecting local repo to GitHub using SSH
 - Pushing first commit using `git remote` and `git push`
-"""
 
 # Day 2 content
 # 📅 Day 2 – Collaboration & GitHub Essentials
@@ -39,7 +36,6 @@
   - Commit messages
   - Using `.gitignore`
   - Adding a `README.md`
-"""
 
 # Day 3 content
 # 📅 Day 3 – GitHub Pages & Portfolio Building
