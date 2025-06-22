@@ -1,6 +1,7 @@
 ﻿# Day 1 content
 # 📅 Day 1 – Git Basics & Local Setup
-[Day 1 – Git Basics & Local Setup ](./3-create-new-repo.md)
+[Day 1 – Git Basics & Local Setup ](./day1.md)
+
 **Theme:** Getting Started with Git and SSH
 ## 🔧 Topics Covered
 - Introduction to Version Control
