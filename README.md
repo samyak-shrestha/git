@@ -1,6 +1,6 @@
 ﻿# Day 1 content
 # 📅 Day 1 – Git Basics & Local Setup
-[Day 1 – Git Basics & Local Setup ](./day1.md)
+[Day 1 - ReadMore ](./day1.md)
 
 **Theme:** Getting Started with Git and SSH
 ## 🔧 Topics Covered
@@ -20,6 +20,7 @@
 
 # Day 2 content
 # 📅 Day 2 – Collaboration & GitHub Essentials
+[Day 2 - ReadMore ](./day2.md)
 **Theme:** Working in Teams and Resolving Conflicts
 
 ## 🤝 Topics Covered

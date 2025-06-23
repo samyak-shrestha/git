@@ -46,7 +46,15 @@ git push -u origin main   # First time push
 ```
 
 ### 🔐 Generate and Add SSH Key
+
 ```bash
+
+ssh-keygen
+```
+or
+
+```bash
+
 ssh-keygen -t ed25519 -C "you@example.com"
 
 cat ~/.ssh/id_ed25519.pub
