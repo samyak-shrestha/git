@@ -1,26 +1,24 @@
 ﻿# Day 1 content
 # 📅 Day 1 – Git Basics & Local Setup
-[Day 1 - ReadMore ](./day1.md)
 
 **Theme:** Getting Started with Git and SSH
 ## 🔧 Topics Covered
-- Introduction to Version Control
-- Installing Git and VS Code
-- Basic Git Workflow
-  - `git init`, `git status`, `git add`, `git commit`
-- Understanding Repositories (Local vs Remote)
-- Setting up GitHub Account
-- Setting up SSH Keys
-  - Why SSH is important
-  - Generating SSH keys
-  - Adding SSH key to GitHub
-  - Verifying SSH connection
-- Connecting local repo to GitHub using SSH
-- Pushing first commit using `git remote` and `git push`
+1. 📂  [Introduction to Open Source](./day1/1-1-open-source.md)
+2. 🗂️ [Introduction to Version Control](./day1/1-2-git-github-intro.md)
+3. [⬇️🛠️ Downloading and Installing Git and VS Code](./day1/1-3-downloading-installing-git-vscode.md)
+4. [👤 Setting up GitHub Account](./day1/1-4-setting-github.md)
+5. [🔧 Creating Your First GitHub Repository](./day1/1-5-creating-first-github-repo.md)
+6. [🔄 Basic Git Workflow](./day1/1-6-basic-git-workflow.md)
+    - `git init`, `git status`, `git add`, `git commit`
+7. 📂 [Understanding Repositories (Local vs Remote)](./day1/1-7-local-vs-remote-repo.md)
+8.  [🔐 Setting up SSH Keys](./day1/1-8-ssh-keys.md)
+
+9. [🌐 Connecting local repo to GitHub using SSH & Push to origin](./day1/1-9-connecting-local-repo-to-remote-push.md)
+10. [📋 Summary](./day1/1-10-summary.md)
+11.  [📝 Hands-On Exercise](./day1/1-11-task.md) 
 
 # Day 2 content
 # 📅 Day 2 – Collaboration & GitHub Essentials
-[Day 2 - ReadMore ](./day2.md)
 **Theme:** Working in Teams and Resolving Conflicts
 
 ## 🤝 Topics Covered
