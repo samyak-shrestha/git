@@ -1,7 +1,3 @@
----
-marp: false
----
-
 📌 Previous: [ 🏠 Homepage](../README.md)
 
 ## 1. Open Source, Freemium, and Enterprise Software
