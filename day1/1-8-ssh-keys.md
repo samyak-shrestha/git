@@ -5,6 +5,7 @@
 ## 8. 🔐 Setting up SSH Keys
 SSH (Secure Shell) keys are a secure way to authenticate with GitHub and other Git-based platforms without using your username and password each time you interact with your repositories. In this guide, we’ll walk through how to generate SSH keys, add them to GitHub, and verify your setup.
 
+![ssh](../images/ssh.gif)
 - [Why SSH is important](#why-ssh-is-important)
 - [Generating SSH keys](#generating-ssh-keys-pair-on-local-machine)
 - [Adding SSH key to GitHub](#add-ssh-public-key-to-github)
