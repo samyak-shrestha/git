@@ -1,4 +1,4 @@
-[ 🏠 Homepage](../README.md)
+🏠 [Homepage](../README.md)
 
 ⬅️ **Previous:** [👤 Setting up GitHub Account](./1-4-setting-github.md)
 

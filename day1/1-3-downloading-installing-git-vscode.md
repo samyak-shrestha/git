@@ -1,4 +1,4 @@
-[ 🏠 Homepage](../README.md)
+🏠 [Homepage](../README.md)
 
 ⬅️ **Previous:** [ 🗂️ Introduction to Version Control](../day1/1-2-git-github-intro.md)
 

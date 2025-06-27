@@ -1,4 +1,4 @@
-📌 Previous: [ 🏠 Homepage](../README.md)
+📌 Previous: 🏠 [Homepage](../README.md)
 
 ## 1. Open Source, Freemium, and Enterprise Software
 ![git logo](../images/git-logo.png)

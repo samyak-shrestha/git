@@ -5,21 +5,36 @@
 ---
 
 ## 🔧 Topics Covered
-- Cloning repositories from GitHub
-- Creating and switching branches
-- Editing files as a team
-- Staging, committing, and pushing changes
-- Creating and reviewing Pull Requests
-- Handling merge conflicts
-- Intro to GitHub Desktop (Optional)
+- 🔄 Forking a repository or Add user from Collaboration
+- 🔄 Cloning a repository (`git clone`)
+- 🌿 Branching in Git
+  - `git branch`, `git checkout`
+- 📝 Making changes on a new branc
+- ✅ Staging, committing, and pushing changes
+- 🚀 Push Your Branch to GitHub
+- 🔁 Open a Pull Request (PR)
+- Merge the PR into main
+- Resolving merge conflicts (optional)
 
 ---
 
-## 🔄 Clone the Shared Repository
-[Github repo](https://github.com/samyak-shrestha/git-repo-example)
+## 🔄 Fork the Shared Repository
+[Github repo Link](https://github.com/samyak-shrestha/git-repo-example)
+
+---
+#### OR
+---
+
+## 🔄 Add User in Collboration
+> add Users in Colloration and acts as a team
+
+---
+
+## 🔄 Clone the Repository
+
 ```bash
-git clone git@github.com:samyak-shrestha/git-repo-example.git
-cd git-repo-example
+git clone git@github.com:your-username/your-repo-name.git
+cd your-git-repo-name
 ```
 
 ---
@@ -77,38 +92,16 @@ git push origin feature-yourname
 
 ---
 
-## ⚠️ Simulate a Merge Conflict (Instructor or 2 users)
-1. Edit the same line in `contributors.md` in two branches
-2. Merge one PR
-3. Pull latest and fix conflict
-
-```bash
-git pull origin main
-# Manually fix conflict in file
-git add .
-git commit -m "Fix merge conflict"
-git push
-```
-
----
-
 ## ✅ Merge the PR into `main`
 ```bash
 git checkout main
-git pull
-git merge feature-yourname
+git fetch origin
+git merge origin/feature-yourname
 ```
 
 ---
 
-## 🖥️ Optional: Use GitHub Desktop
-1. Create branch
-2. Edit file
-3. Commit changes
-4. Push and open PR using GUI
 
----
-
-## 🎯 Final Team Task (Optional)
+## 🎯 Final Task
 - Add 1 personal bio in `contributors.md`
-- Create your own page in `/people/yourname.md` or `.html`
+- Create your own page in `/people/yourname.md`

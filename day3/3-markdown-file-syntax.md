@@ -1,3 +1,5 @@
+🏠 [Homepage](../README.md)
+
 Example of a Markdown File for a Personal Website
 Here's an example of a markdown file for a personal website, with image embedding, titles, paragraphs, and more:
 
@@ -147,3 +149,6 @@ Feel free to reach out via email or through social media:
 - Email: [johndoe@example.com](mailto:johndoe@example.com)
 - LinkedIn: [linkedin.com/in/johndoe](https://linkedin.com/in/johndoe)
 - GitHub: [github.com/johndoe](https://github.com/johndoe)
+
+
+🏠 [Homepage](../README.md)

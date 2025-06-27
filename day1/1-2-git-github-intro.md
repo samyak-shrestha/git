@@ -1,4 +1,4 @@
-[ 🏠 Homepage](../README.md)
+🏠 [Homepage](../README.md)
 
 ⬅️ **Previous:** [📂 Introduction to Open Source](./1-1-open-source.md)
 

@@ -1,4 +1,4 @@
-[ 🏠 Homepage](../README.md)
+🏠 [Homepage](../README.md)
 
 ⬅️ **Previous:** [📂 Understanding Repositories (Local vs Remote)](./1-7-local-vs-remote-repo.md)
 

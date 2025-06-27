@@ -1,4 +1,4 @@
-[ 🏠 Homepage](../README.md)
+🏠 [Homepage](../README.md)
 
 ⬅️ **Previous:** [ ⬇️🛠️ Downloading and Installing Git and VS Code](./1-3-downloading-installing-git-vscode.md)
 

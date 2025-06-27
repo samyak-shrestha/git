@@ -1,4 +1,4 @@
-[ 🏠 Homepage](../README.md)
+🏠 [Homepage](../README.md)
 
 ⬅️ **Previous:** [Connecting local repo to GitHub using SSH & Push to origin](./1-9-connecting-local-repo-to-remote-push.md)
 

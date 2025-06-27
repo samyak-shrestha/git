@@ -1,4 +1,4 @@
-[ 🏠 Homepage](../README.md)
+🏠 [Homepage](../README.md)
 
 ⬅️ **Previous:** [🔄 Basic Git Workflow](./1-6-basic-git-workflow.md)
 

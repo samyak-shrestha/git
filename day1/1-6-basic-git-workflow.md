@@ -1,4 +1,4 @@
-[ 🏠 Homepage](../README.md)
+🏠 [Homepage](../README.md)
 
 ⬅️ **Previous:** [ 🔧 Creating Your First GitHub Repository](./1-5-creating-first-github-repo.md)
 

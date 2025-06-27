@@ -1,4 +1,4 @@
-[ 🏠 Homepage](../README.md)
+🏠 [Homepage](../README.md)
 
 ⬅️ **Previous:** [🔐 Setting up SSH Keys](./1-8-ssh-keys.md)
 
