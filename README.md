@@ -1,6 +1,7 @@
 ﻿# 📅 Day 1 – Git Basics & Local Setup
 
 **Theme:** Getting Started with Git, common commands and SSH
+
 ## 🔧 Topics Covered
 1. 📂  [Introduction to Open Source](./day1/1-1-open-source.md)
 2. 🗂️ [Introduction to Version Control](./day1/1-2-git-github-intro.md)
@@ -10,11 +11,11 @@
 6. 🔄[ Basic Git Workflow](./day1/1-6-basic-git-workflow.md)
     - `git init`, `git status`, `git add`, `git commit`
 7. 📂 [Understanding Repositories (Local vs Remote)](./day1/1-7-local-vs-remote-repo.md)
-8.  🔐 [Setting up SSH Keys](./day1/1-8-ssh-keys.md)
-
+8. 🔐 [Setting up SSH Keys](./day1/1-8-ssh-keys.md)
 9. 🌐 [Connecting local repo to GitHub using SSH & Push to origin](./day1/1-9-connecting-local-repo-to-remote-push.md)
 10. 📋[ Summary & Cheatsheet](./day1/1-10-summary.md)
-11.  📝[ Hands-On Exercise](./day1/1-11-task.md) 
+11. 📝[ Hands-On Exercise](./day1/1-11-task.md) 
+
 
 # 📅 Day 2 – Branching, Cloning, Forking, Collaboration
 **Theme:** Branching, Cloning, Forking and Working in Teams and Resolving Conflicts
