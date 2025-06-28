@@ -20,16 +20,18 @@
 **Theme:** Branching, Cloning, Forking and Working in Teams and Resolving Conflicts
 
 ## 🤝 Topics Covered
-- 🚀 [Introduction](./day2/2-1-intro.md)
-- 🌿 [Branching in Git](./day2/2-2-branching.md)
-- 📝 [Making Changes & Committing](./day2/2-3-making-changes.md)
-- ✅ [Pushing Changes](./day2/2-4-pushing-changes.md)
-- 🔄 [Cloning a Repository](./day2/2-5-cloning.md)
-- 🍴 [Forking a Repository](./day2/2-6-forking.md)
-- 🔁 [Opening a Pull Request (PR)](./day2/2-7-pull-requests.md)
-- 👥 [Adding Collaborators](./day2/2-8-collaborators.md)
-- 🔀 [Merging the PR into Main](./day2/2-9-merging.md)
-- ⚡ [Resolving Merge Conflicts](./day2/2-10-merge-conflicts.md)
+1. 🚀 [Introduction](./day2/2-1-intro.md)
+2. 🌿 [Branching in Git](./day2/2-2-branching.md)
+3. 📝 [Making Changes & Committing](./day2/2-3-making-changes.md)
+4. ✅ [Pushing Changes](./day2/2-4-pushing-changes.md)
+5. 🔄 [Cloning a Repository](./day2/2-5-cloning.md)
+6. 🍴 [Forking a Repository](./day2/2-6-forking.md)
+7. 🔁 [Opening a Pull Request (PR)](./day2/2-7-pull-requests.md)
+8. 👥 [Adding Collaborators](./day2/2-8-collaborators.md)
+9. 🔀 [Merging the PR into Main](./day2/2-9-merging.md)
+10. ⚡ [Resolving Merge Conflicts](./day2/2-10-resolving-merge-conflicts.md)
+11. 📋[ Summary & Cheatsheet](./day2/2-11-summary-cheatsheets.md)
+12.  📝[ Hands-On Exercise](./day2/2-12-task.md) 
 
 # 📅 Day 3 – GitHub Pages & Portfolio Building
 **Theme:** Showcasing Yourself as a Developer
@@ -46,6 +48,7 @@
 - Publishing static websites using GitHub Pages
 - Updating and managing GitHub Pages
 - Overview of [GitHub Student Developer Pack](https://education.github.com/pack)
-  - registering
-- Q&A and task submission instructions for certificate
+  - Walk Through the **Student Developer Pack** Registration Process
+- Q & A 
 - QUIZ
+- 📝[ Hands-On Exercise](./day3/3-task.md) 

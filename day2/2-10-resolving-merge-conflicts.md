@@ -106,4 +106,4 @@ Visualize your repository, branches, and merges.
 Take your time resolving conflicts and test your code after merging to ensure everything works
 
 
-➡️ **Up Next:** [ 🏠  Homepage](../README.md)
+➡️**Up Next:** 📋[Summary & Cheatsheet](./2-11-summary-cheatsheets.md)

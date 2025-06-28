@@ -108,4 +108,4 @@ git merge origin/main
 
 **Tip 2:** Always pull or fetch the latest changes after a merge to keep your local repository up to date.
 
-➡️**Up Next:** ⚡[Resolving Merge Conflicts](./2-10-merge-conflicts.md)
+➡️**Up Next:** ⚡[Resolving Merge Conflicts](./2-10-resolving-merge-conflicts.md)

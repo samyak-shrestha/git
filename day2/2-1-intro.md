@@ -1,17 +1,21 @@
 📌 Previous: 🏠 [Homepage](../README.md)
 
 ## 🤝 Topics Covered for Day 2
-- 🚀 Introduction
-- 🌿 [Branching in Git](./2-2-branching.md)
-- 📝 [Making Changes & Committing](./2-3-making-changes.md)
-- ✅ [Pushing Changes](./2-4-pushing-changes.md)
-- 🔄 [Cloning a Repository](./2-5-cloning.md)
-- 🍴 [Forking a Repository](./2-6-forking.md)
-- 🔁 [Opening a Pull Request (PR)](./2-7-pull-requests.md)
-- 👥 [Adding Collaborators](./2-8-collaborators.md)
-- 🔀 [Merging the PR into Main](./2-9-merging.md)
-- ⚡ [Resolving Merge Conflicts](./2-10-merge-conflicts.md)
+1. 🚀 Introduction
+2. 🌿 [Branching in Git](./2-2-branching.md)
+3. 📝 [Making Changes & Committing](./2-3-making-changes.md)
+4. ✅ [Pushing Changes](./2-4-pushing-changes.md)
+5. 🔄 [Cloning a Repository](./2-5-cloning.md)
+6. 🍴 [Forking a Repository](./2-6-forking.md)
+7. 🔁 [Opening a Pull Request (PR)](./2-7-pull-requests.md)
+8. 👥 [Adding Collaborators](./2-8-collaborators.md)
+9. 🔀 [Merging the PR into Main](./2-9-merging.md)
+10. ⚡ [Resolving Merge Conflicts](./2-10-merge-conflicts.md)
+11. 📋[ Summary & Cheatsheet](./2-11-summary-cheatsheets.md)
+12.  📝[ Hands-On Exercise](./2-12-task.md) 
 
+
+---
 
 1. **Branching in Git**
    - What is a branch?
