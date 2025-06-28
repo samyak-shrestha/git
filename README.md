@@ -43,11 +43,11 @@
   - [Example](https://samyak-shrestha.github.io)
 - Creating a portfolio or CV repository (e.g., `username.github.io`)
 - Writing in [Markdown](./day3/3-markdown-file-syntax.md) / html (`README.md`, `index.md`)
+- Publishing static websites using GitHub Pages
+- Updating and managing GitHub Pages
 - Introduction to GitHub Desktop
   - Installing and basic usage
   - Visualizing branches, commits, pushes
-- Publishing static websites using GitHub Pages
-- Updating and managing GitHub Pages
 - Overview of [GitHub Student Developer Pack](https://education.github.com/pack)
   - Walk Through the **Student Developer Pack** Registration Process
 - Q & A 
