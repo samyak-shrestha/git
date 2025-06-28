@@ -1,6 +1,6 @@
 🏠 [Homepage](../README.md)
 
-⬅️ **Previous:** [Connecting local repo to GitHub using SSH & Push to origin](./1-9-connecting-local-repo-to-remote-push.md)
+⬅️ **Previous:** 🌐 [Connecting local repo to GitHub using SSH & Push to origin](./1-9-connecting-local-repo-to-remote-push.md)
 
 
 ## 10. 📋 Summary
@@ -87,4 +87,4 @@ ssh -T git@github.com
 
 
 
-➡️ **Up Next:** [ 📝 Hands-On Exercise](../day1/1-11-task.md)
+➡️ **Up Next:** 📝 [Hands-On Exercise](../day1/1-11-task.md)

@@ -1,6 +1,6 @@
 ﻿# 📅 Day 1 – Git Basics & Local Setup
 
-**Theme:** Getting Started with Git and SSH
+**Theme:** Getting Started with Git, common commands and SSH
 ## 🔧 Topics Covered
 1. 📂  [Introduction to Open Source](./day1/1-1-open-source.md)
 2. 🗂️ [Introduction to Version Control](./day1/1-2-git-github-intro.md)
@@ -16,34 +16,25 @@
 10. 📋[ Summary & Cheatsheet](./day1/1-10-summary.md)
 11.  📝[ Hands-On Exercise](./day1/1-11-task.md) 
 
-# 📅 Day 2 – Collaboration & GitHub Essentials
-**Theme:** Working in Teams and Resolving Conflicts
+# 📅 Day 2 – Branching, Cloning, Forking, Collaboration
+**Theme:** Branching, Cloning, Forking and Working in Teams and Resolving Conflicts
 
-[Day 2 Link](./day2/day2.md)
 ## 🤝 Topics Covered
-- 🔄 Forking a repository or Add user from Collaboration
-- 🔄 Cloning a repository (`git clone`)
-<!-- - Pulling updates (`git pull`) -->
-- 🌿 Branching in Git
-  - `git branch`, `git checkout`
-- 📝 Making changes on a new branch
-- ✅ Stage & Commit Your Changes
-- 🚀 Push Your Branch to GitHub
-- 🔁 Open a Pull Request (PR)
-<!-- - Merging branches with `git merge` -->
-- Merge the PR into main
-- Resolving merge conflicts (optional)
-
-- Best Practices
-  - Commit messages
-  - Using `.gitignore`
-  - Adding a `README.md`
+- [Introduction](./day2/2-1-intro.md)
+- 🌿 [Branching in Git](./day2/2-2-branching.md)
+- 📝 [Making Changes & Committing](./day2/2-3-making-changes.md)
+- ✅ [Pushing Changes](./day2/2-4-pushing-changes.md)
+- 🔄 [Cloning a Repository](./day2/2-5-cloning.md)
+- 🍴 [Forking a Repository](./day2/2-6-forking.md)
+- 🔁 [Opening a Pull Request (PR)](./day2/2-7-pull-requests.md)
+- 👥 [Adding Collaborators](./day2/2-8-collaborators.md)
+- 🔀 [Merging the PR into Main](./day2/2-9-merging.md)
+- ⚡ [Resolving Merge Conflicts](./day2/2-10-merge-conflicts.md)
 
 # 📅 Day 3 – GitHub Pages & Portfolio Building
 **Theme:** Showcasing Yourself as a Developer
 
 ## 🌐 Topics Covered
-- Revise
 - [Fork the portfolio repository](https://github.com/samyak-shrestha/simple-portfolio)
 - Introduction to [GitHub Pages](./day3/3-github-pages.md)
   - [Example](https://samyak-shrestha.github.io)

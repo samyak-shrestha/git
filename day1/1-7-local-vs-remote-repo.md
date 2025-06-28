@@ -1,6 +1,6 @@
 🏠 [Homepage](../README.md)
 
-⬅️ **Previous:** [🔄 Basic Git Workflow](./1-6-basic-git-workflow.md)
+⬅️ **Previous:** 🔄 [Basic Git Workflow](./1-6-basic-git-workflow.md)
 
 ## 7. 📂 Understanding Repositories: Local vs Remote
 
@@ -71,4 +71,4 @@ This pushes your local changes to the **remote GitHub repository**.
 
 > 💡 **Tip:** Always commit locally first, then push to remote to save and share your work.
 
-➡️**Up Next:** [🔐 Setting up SSH Keys](./1-8-ssh-keys.md)
+➡️**Up Next:** 🔐 [Setting up SSH Keys](./1-8-ssh-keys.md)

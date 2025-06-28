@@ -1,6 +1,6 @@
 🏠 [Homepage](../README.md)
 
-⬅️ **Previous:** [📋 Summary](./1-10-summary.md)
+⬅️ **Previous:** 📋 [Summary](./1-10-summary.md)
 
 
 ### 11: Hands-On Exercise
@@ -15,4 +15,4 @@
 
 
 
-➡️ **Up Next:** [ 🏠  Homepage](../README.md)
+➡️ **Up Next:** 🏠 [Homepage](../README.md)
