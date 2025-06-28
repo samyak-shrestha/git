@@ -1,7 +1,7 @@
 📌 Previous: 🏠 [Homepage](../README.md)
 
 ## 🤝 Topics Covered for Day 2
-- Introduction
+- 🚀 Introduction
 - 🌿 [Branching in Git](./2-2-branching.md)
 - 📝 [Making Changes & Committing](./2-3-making-changes.md)
 - ✅ [Pushing Changes](./2-4-pushing-changes.md)

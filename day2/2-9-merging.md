@@ -8,19 +8,36 @@
 
 Merging is the process of integrating changes from one branch (often a feature branch) into another branch (usually `main`). This is typically done after a pull request (PR) is reviewed and approved.
 
-## When to Merge
+## Ways to Merge Changes
 
-- After your pull request has been reviewed and approved.
-- When you want to bring feature or bugfix changes into the main codebase.
+There are multiple ways to bring changes from a remote repository into your local branch:
 
-## How to Merge a Pull Request on GitHub
+### 1. Merging via GitHub Pull Request
 
-1. **Go to the original repository on GitHub.**
-2. Click on the **Pull Requests** tab.
-3. Select the pull request you want to merge.
-4. Review the changes and discussion.
-5. Click the **Merge pull request** button.
-6. Confirm the merge by clicking **Confirm merge**.
+- Open a Pull Request (PR) on GitHub to propose your changes.
+- After review and approval, click **Merge pull request** on GitHub.
+- This is the recommended way for team collaboration and open source projects.
+
+### 2. Merging Locally with `git pull`
+
+```sh
+git pull origin main
+```
+- This command **fetches** changes from the remote and **merges** them into your current branch in one step.
+- Good for quick updates and personal projects.
+
+### 3. Merging Locally with `git fetch` + `git merge`
+
+```sh
+git fetch origin main
+git merge origin/main
+```
+- `git fetch` downloads changes but does **not** merge them.
+- You can inspect changes (e.g., with `git diff origin/main`) before merging.
+- `git merge origin/main` applies the changes when you're ready.
+- Recommended for team settings or when you want more control.
+
+---
 
 ## Pulling Merged Changes Locally
 
@@ -31,9 +48,16 @@ After merging a PR on GitHub, update your local repository:
    git checkout main
    ```
 
-2. **Pull the latest changes:**
+2. **Option 1: Quick update (automatic merge):**
    ```sh
    git pull origin main
+   ```
+
+3. **Option 2: Safer, manual update:**
+   ```sh
+   git fetch origin main
+   git diff origin/main   # (optional) inspect incoming changes
+   git merge origin/main
    ```
 
 ## Example Workflow
@@ -43,6 +67,10 @@ After merging a PR on GitHub, update your local repository:
    ```sh
    git checkout main
    git pull origin main
+   # OR for more control:
+   git fetch origin main
+   git diff origin/main
+   git merge origin/main
    ```
 
 ## Summary Table
@@ -51,11 +79,34 @@ After merging a PR on GitHub, update your local repository:
 |-----------------------|-------------------------------------|
 | Merge PR on GitHub    | Click "Merge pull request"          |
 | Switch to main branch | `git checkout main`                 |
-| Pull latest changes   | `git pull origin main`              |
+| Pull & merge (quick)  | `git pull origin main`              |
+| Fetch & merge (safe)  | `git fetch origin main` + `git merge origin/main` |
+| Inspect changes       | `git diff origin/main`              |
+
+---
+
+## `git pull` vs `git fetch` + `git merge`
+
+| Use Case                        | Recommended Command(s)                |
+|----------------------------------|---------------------------------------|
+| Personal quick updates           | `git pull`                            |
+| Team collaboration & safety      | `git fetch` + `git merge`             |
+| Need to inspect before merging   | `git fetch` + `git diff`              |
+
+- **`git pull`**: Fast, automatic, but can cause unexpected conflicts.
+- **`git fetch` + `git merge`**: Safer, lets you review changes before merging.
+
+**Pro Tip:**  
+If you're unsure or working on shared branches, always prefer:
+```sh
+git fetch
+git diff origin/main   # optional: inspect changes
+git merge origin/main
+```
 
 ---
 
 **Tip:**  
-Always pull the latest changes after a merge to keep your local repository up to
+Always pull or fetch the latest changes after a merge to keep your local repository up to date.
 
 ➡️**Up Next:** ⚡[Resolving Merge Conflicts](./2-10-merge-conflicts.md)

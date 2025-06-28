@@ -20,7 +20,7 @@
 **Theme:** Branching, Cloning, Forking and Working in Teams and Resolving Conflicts
 
 ## 🤝 Topics Covered
-- [Introduction](./day2/2-1-intro.md)
+- 🚀 [Introduction](./day2/2-1-intro.md)
 - 🌿 [Branching in Git](./day2/2-2-branching.md)
 - 📝 [Making Changes & Committing](./day2/2-3-making-changes.md)
 - ✅ [Pushing Changes](./day2/2-4-pushing-changes.md)
