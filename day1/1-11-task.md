@@ -7,7 +7,7 @@
 
 1. **Step 1**: Create a GitHub account.  
 2. **Step 2**: Create a public repository.  
-3. **Step 3**: Create a `README.md` file and update its content.  
+3. **Step 3**: Create a `README.md` file and update its content.  (for 2nd sem students add C programming code files)
 4. **Step 4**: Push the local repository to the remote.  
 5. **Step 5**: Make changes (create a new file or update an existing one).  
 6. **Step 6**: Push the updated repository again.  
