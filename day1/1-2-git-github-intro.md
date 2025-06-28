@@ -79,4 +79,4 @@
 - **Code Review**: Use pull requests to review and discuss code before merging.
 - **Open Source Projects**: Collaborate with millions of developers.
 
-➡️**Up Next:** [⬇️🛠️ Downloading and Installing Git and VS Code](./1-3-downloading-installing-git-vscode.md)
+➡️**Up Next:** ⬇️🛠️ [Downloading and Installing Git and VS Code](./1-3-downloading-installing-git-vscode.md)

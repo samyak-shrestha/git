@@ -1,6 +1,6 @@
 🏠 [Homepage](../README.md)
 
-⬅️ **Previous:** [ 🔧 Creating Your First GitHub Repository](./1-5-creating-first-github-repo.md)
+⬅️ **Previous:** 🔧 [Creating Your First GitHub Repository](./1-5-creating-first-github-repo.md)
 
 ## 6. 🔄 Basic Git Workflow
 
@@ -68,4 +68,4 @@ This is a practice repo for learning Git and GitHub.
     ```
 
 
-➡️**Up Next:**[📂 Understanding Repositories (Local vs Remote)](./1-7-local-vs-remote-repo.md)
+➡️**Up Next:** 📂 [Understanding Repositories (Local vs Remote)](./1-7-local-vs-remote-repo.md)

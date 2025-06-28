@@ -129,4 +129,4 @@
 ### Final Thought:
 Choosing between these models depends on your **needs, budget,** and **technical expertise**. Open-source is transforming industries, while freemium and enterprise models continue to serve commercial and casual needs alike.
 
-➡️**Up Next:** [🗂️ Introduction to Version Control](./1-2-git-github-intro.md)
+➡️**Up Next:** 🗂️ [Introduction to Version Control](./1-2-git-github-intro.md)

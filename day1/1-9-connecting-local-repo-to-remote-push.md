@@ -1,6 +1,6 @@
 🏠 [Homepage](../README.md)
 
-⬅️ **Previous:** [🔐 Setting up SSH Keys](./1-8-ssh-keys.md)
+⬅️ **Previous:** 🔐 [Setting up SSH Keys](./1-8-ssh-keys.md)
 
 ## 9. 🌐 Connect Local Repo to Remote (GitHub)
 
@@ -38,4 +38,4 @@ git push -u origin main
 ✅ Now your local project is connected and pushed to GitHub!
 
 
-➡️**Up Next:**[📋 Summary](./1-10-summary.md)
+➡️**Up Next:**📋 [Summary](./1-10-summary.md)

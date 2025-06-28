@@ -1,6 +1,6 @@
 🏠 [Homepage](../README.md)
 
-⬅️ **Previous:** [👤 Setting up GitHub Account](./1-4-setting-github.md)
+⬅️ **Previous:** 👤 [Setting up GitHub Account](./1-4-setting-github.md)
 
 ## 5. 🔧 Creating Your First GitHub Repository
 
@@ -125,4 +125,4 @@ You’ll be redirected to:
 ---
 
 
-➡️**Up Next:** [🔄 Basic Git Workflow](./1-6-basic-git-workflow.md)
+➡️**Up Next:** 🔄 [Basic Git Workflow](./1-6-basic-git-workflow.md)

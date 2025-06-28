@@ -1,6 +1,6 @@
 🏠 [Homepage](../README.md)
 
-⬅️ **Previous:** [📂 Understanding Repositories (Local vs Remote)](./1-7-local-vs-remote-repo.md)
+⬅️ **Previous:** 📂 [Understanding Repositories (Local vs Remote)](./1-7-local-vs-remote-repo.md)
 
 ## 8. 🔐 Setting up SSH Keys
 SSH (Secure Shell) keys are a secure way to authenticate with GitHub and other Git-based platforms without using your username and password each time you interact with your repositories. In this guide, we’ll walk through how to generate SSH keys, add them to GitHub, and verify your setup.
@@ -103,4 +103,4 @@ Setting up SSH keys is a one-time task that saves time and enhances security in 
 - You automate deployments.
 - You want to avoid constant reauthentication.
 
-➡️**Up Next:** [🌐 Connecting local repo to GitHub using SSH & Push to origin](./1-9-connecting-local-repo-to-remote-push.md)
+➡️**Up Next:** 🌐 [Connecting local repo to GitHub using SSH & Push to origin](./1-9-connecting-local-repo-to-remote-push.md)
