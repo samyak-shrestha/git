@@ -7,7 +7,6 @@
 ## What is Merging?
 
 Merging is the process of integrating changes from one branch (often a feature branch) into another branch (usually `main`). This is typically done after a pull request (PR) is reviewed and approved.
-
 ## Ways to Merge Changes
 
 There are multiple ways to bring changes from a remote repository into your local branch:
@@ -18,13 +17,32 @@ There are multiple ways to bring changes from a remote repository into your loca
 - After review and approval, click **Merge pull request** on GitHub.
 - This is the recommended way for team collaboration and open source projects.
 
+---
+
 ### 2. Merging Locally with `git pull`
 
 ```sh
 git pull origin main
 ```
+
 - This command **fetches** changes from the remote and **merges** them into your current branch in one step.
-- Good for quick updates and personal projects.
+- **Which branch am I on?**
+  - If you are on `main`, this updates your local `main` with the remote `main`.
+  - If you are on another branch (e.g., `feature-branch`), this merges `origin/main` into your current branch (`feature-branch`).
+- **You can pull from any remote branch into any current branch:**
+  ```sh
+  git pull origin other-branch
+  ```
+  This will merge `origin/other-branch` into your current branch.
+
+**Example:**
+```sh
+git checkout feature-branch
+git pull origin main
+# This brings changes from remote main into your feature-branch
+```
+
+---
 
 ### 3. Merging Locally with `git fetch` + `git merge`
 
@@ -32,57 +50,25 @@ git pull origin main
 git fetch origin main
 git merge origin/main
 ```
-- `git fetch` downloads changes but does **not** merge them.
-- You can inspect changes (e.g., with `git diff origin/main`) before merging.
-- `git merge origin/main` applies the changes when you're ready.
-- Recommended for team settings or when you want more control.
 
----
+- `git fetch` downloads changes from the remote but does **not** merge them.
+- `git merge origin/main` merges the fetched changes into your current branch.
+- **Which branch am I on?**
+  - If you are on `main`, this updates your local `main` with the remote `main`.
+  - If you are on another branch, this merges `origin/main` into your current branch.
+- **You can fetch and merge from any branch:**
+  ```sh
+  git fetch origin other-branch
+  git merge origin/other-branch
+  ```
 
-## Pulling Merged Changes Locally
-
-After merging a PR on GitHub, update your local repository:
-
-1. **Switch to the main branch:**
-   ```sh
-   git checkout main
-   ```
-
-2. **Option 1: Quick update (automatic merge):**
-   ```sh
-   git pull origin main
-   ```
-
-3. **Option 2: Safer, manual update:**
-   ```sh
-   git fetch origin main
-   git diff origin/main   # (optional) inspect incoming changes
-   git merge origin/main
-   ```
-
-## Example Workflow
-
-1. **Merge the PR on GitHub (as above).**
-2. **Update your local main branch:**
-   ```sh
-   git checkout main
-   git pull origin main
-   # OR for more control:
-   git fetch origin main
-   git diff origin/main
-   git merge origin/main
-   ```
-
-## Summary Table
-
-| Action                | Command/Step                        |
-|-----------------------|-------------------------------------|
-| Merge PR on GitHub    | Click "Merge pull request"          |
-| Switch to main branch | `git checkout main`                 |
-| Pull & merge (quick)  | `git pull origin main`              |
-| Fetch & merge (safe)  | `git fetch origin main` + `git merge origin/main` |
-| Inspect changes       | `git diff origin/main`              |
-
+**Example:**
+```sh
+git checkout feature-branch
+git fetch origin main
+git merge origin/main
+# This brings changes from remote main into your feature-branch, but lets you inspect first
+```
 ---
 
 ## `git pull` vs `git fetch` + `git merge`
@@ -106,7 +92,20 @@ git merge origin/main
 
 ---
 
-**Tip:**  
-Always pull or fetch the latest changes after a merge to keep your local repository up to date.
+## Summary Table
+
+| Current Branch    | Command                  | Result                                              |
+|-------------------|-------------------------|-----------------------------------------------------|
+| main              | `git pull origin main`   | Updates local main with remote main                 |
+| feature-branch    | `git pull origin main`   | Merges remote main into feature-branch              |
+| any-branch        | `git pull origin branch` | Merges specified remote branch into current branch  |
+| main              | `git fetch origin main` + `git merge origin/main` | Updates local main with remote main (with review)   |
+| feature-branch    | `git fetch origin main` + `git merge origin/main` | Merges remote main into feature-branch (with review)|
+
+---
+
+**Tip 1:** Always check which branch you are on with `git status` before pulling or merging, especially in team settings.
+
+**Tip 2:** Always pull or fetch the latest changes after a merge to keep your local repository up to date.
 
 ➡️**Up Next:** ⚡[Resolving Merge Conflicts](./2-10-merge-conflicts.md)

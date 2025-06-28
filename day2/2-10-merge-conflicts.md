@@ -14,6 +14,9 @@ A merge conflict occurs when Git cannot automatically combine changes from diffe
 - When a file is deleted in one branch but modified in another.
 - When changes overlap in a way Git cannot resolve automatically.
 
+> ⚠️ Merge conflicts can occur whether you merge changes using a GitHub Pull Request, `git pull`, or `git fetch` + `git merge`. The steps to resolve conflicts are the same in all cases.
+
+
 ## How to Resolve Merge Conflicts
 
 1. **Try to merge branches:**
@@ -67,6 +70,25 @@ git commit
 - Communicate with your team about which files you are editing.
 - Make small, frequent commits and merges.
 
+## Tools for Resolving Conflicts in VS Code
+- VS Code Built-in Merge Editor:
+VS Code highlights conflicts and provides buttons like "Accept Current Change", "Accept Incoming Change", and "Accept Both Changes".
+- **GitLens Extension**:
+Adds advanced Git features and a better merge conflict UI.
+[GitLens Extension](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- **Git Graph Extension**:
+Visualize your repository, branches, and merges.
+[Git Graph Extension](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
+
+---
+
+💡 Other Tips
+- Use the **Source Control** panel to see all conflicted files at a glance.
+- Use the **inline diff view** (Ctrl+Shift+\\) to compare changes side by side.
+- After resolving, always test your code and run `git status` to ensure all conflicts are resolved.
+
+---
+
 ## Summary Table
 
 | Step                    | Command/Action                        |
@@ -78,6 +100,7 @@ git commit
 | Complete merge          | `git commit`                          |
 
 ---
+
 
 **Tip:**  
 Take your time resolving conflicts and test your code after merging to ensure everything works
